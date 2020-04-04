@@ -35,7 +35,7 @@ const callback = async (message: Message, args: string[]) => {
 
 export const command: Command = {
     name: 'deleteemoji',
-    category: 'UTILITY',
+    category: 'MODERATION',
     aliases: ['deleteemote', 'de'],
     description: 'Delete any amount of emotes',
     usage: '<emoji> (you can add as many as you wish)',

@@ -22,7 +22,7 @@ const callback = (message: Message, args: string[]) => {
 
 export const command: Command = {
     name: 'createemoji',
-    category: 'UTILITY',
+    category: 'MODERATION',
     aliases: ['createemote', 'ce'],
     description: 'Create an emote',
     usage: '<name> <url OR attachment>',

@@ -36,7 +36,7 @@ const callback = async (message: Message, args: string[]) => {
 
 export const command: Command = {
     name: 'yoinkemotes',
-    category: 'UTILITY',
+    category: 'MODERATION',
     aliases: ['yoink', 'yoinkemojis', 'uploademotes', 'uploademojis'],
     description: 'Uploads emotes from other servers to your own server.',
     extended: 'Their name will be the name the other server gave them.',
