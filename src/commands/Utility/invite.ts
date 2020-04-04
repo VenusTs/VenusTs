@@ -17,7 +17,7 @@ const callback = (message: Message, _args: string[]) => {
 
 export const command: Command = {
     name: 'botinvite',
-    category: 'DEVELOPMENT',
+    category: 'UTILITY',
     aliases: ['invite', 'inviteme'],
     description: '',
     usage: '',
