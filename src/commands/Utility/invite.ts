@@ -19,7 +19,7 @@ export const command: Command = {
     name: 'botinvite',
     category: 'UTILITY',
     aliases: ['invite', 'inviteme'],
-    description: '',
+    description: 'Invite Venus to your server!',
     usage: '',
     developerOnly: false,
     guildOnly: false,
